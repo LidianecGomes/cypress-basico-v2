@@ -1,4 +1,5 @@
 {
+  "http.proxySupport": "off",
   "name": "curso-cypress-v2",
   "version": "1.0.0",
   "description": "Repositório da versão 2 do curso básico de Cypress da Escola Talking About Testing",
