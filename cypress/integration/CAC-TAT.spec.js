@@ -1,6 +1,5 @@
 /// <reference types="Cypress" />
 
-const { should } = require("chai")
 
 describe('Central de Atendimento ao Cliente TAT', function() {
     beforeEach (function(){
@@ -98,7 +97,7 @@ describe('Central de Atendimento ao Cliente TAT', function() {
 
         cy.get('#product')
           .select('YouTube')
-          .should('have.value','youTube')
+          .should('have.value','youtube')
         
     })
 
